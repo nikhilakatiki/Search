@@ -1,6 +1,7 @@
 .grid-container {
     display: flex;
     flex-direction: column;
+    
 }
 
 .item1 {
@@ -17,9 +18,11 @@
 .item2 {
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    height: 81vh;
     border-style: solid;
-    border-color: black
+    border-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .item3 {
@@ -29,9 +32,6 @@
     background-color: darkgrey;
 }
 
-body {
-    margin: 0;
-}
 
 .bar {
     display: flex;
@@ -45,6 +45,8 @@ body {
 
 .barsize {
     width: 80vw;
+    border-style: solid;
+    border-color: black;
 }
 
 .boo {
@@ -93,7 +95,6 @@ a {
 .barinfo {
     display: flex;
     flex-direction: row;
-    width: 100vw;
     justify-content: center;
 }
 
