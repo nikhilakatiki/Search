@@ -1,0 +1,148 @@
+.grid-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.item1 {
+    display: flex;
+    text-align: center;
+    font-weight: bolder;
+    flex-direction: column;
+    height: 10vh;
+    background-color: darkgrey;
+    border-style: solid;
+    border-color: black
+}
+
+.item2 {
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    border-style: solid;
+    border-color: black
+}
+
+.item3 {
+    height: 5vh;
+    border-style: solid;
+    border-color: black;
+    background-color: darkgrey;
+}
+
+body {
+    margin: 0;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3vh;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.barsize {
+    width: 80vw;
+}
+
+.boo {
+    height: 4vh;
+}
+
+.search {
+    background-image: url("public/search.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    height: 30%;
+}
+
+a {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-decoration: underline;
+    color: rgba(60, 60, 207, 0.664);
+}
+
+.no {
+    text-decoration: none;
+    color: black;
+}
+
+.dim {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.barinfo {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    justify-content: center;
+}
+
+.info {
+    height: 40px;
+    width: 70vw;
+}
+
+.divide {
+    display: flex;
+    flex-direction: column;
+    text-decoration: underline;
+    color: rgba(60, 60, 207, 0.664);
+    padding-left: 1vw;
+    justify-content: space-between;
+}
+
+.lucky {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-left: 41vw;
+    padding-right: 41vw;
+    justify-content: space-between;
+}
+
+.shade {
+    box-shadow: 3px 3px;
+    height: 30px;
+}
+
+.endBoo {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footline {
+    text-decoration: underline;
+    color: rgba(60, 60, 207, 0.664);
+
+}
+
+.BigBoo {
+    height: 60%;
+}
+
+.num {
+    padding-top: 10px;
+    text-align: center;
+    font-size: small;
+}
